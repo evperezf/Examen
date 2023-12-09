@@ -1,0 +1,48 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+#downloadLink {
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ffb800; /* Cambia el color de fondo del botón a amarillo */
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+a:hover {
+    background-color: #e6b800; /* Cambia el color de fondo al pasar el ratón por encima */
+}
+
+#downloadQR {
+    margin-top: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.qr-code-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px; /* Reducir el ancho máximo de la imagen */
+}
